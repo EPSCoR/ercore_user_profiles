@@ -1,0 +1,53 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.user_view
+    - views.view.ercore_basic_user_content
+  module:
+    - ctools
+    - panels
+    - views
+id: user_view-panels_variant-0
+label: Users
+variant: panels_variant
+variant_settings:
+  blocks:
+    8c7af7a7-885b-471f-baae-67c32acfac1f:
+      id: 'entity_view:user'
+      label: 'Entity view (User)'
+      provider: ctools
+      label_display: '0'
+      view_mode: full
+      region: content
+      weight: -1
+      uuid: 8c7af7a7-885b-471f-baae-67c32acfac1f
+      context_mapping:
+        entity: user
+    4d67eeb1-f489-40af-a73d-4d58b890b94a:
+      id: 'views_block:ercore_basic_user_content-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: 0
+      uuid: 4d67eeb1-f489-40af-a73d-4d58b890b94a
+      context_mapping:
+        uid: user
+  id: panels_variant
+  uuid: e30da1d1-f78c-455c-98bb-6b3fe87410bf
+  label: null
+  weight: 0
+  layout: layout_onecol
+  layout_settings: {  }
+  page_title: '[user:field_ercore_user_name]'
+  storage_type: page_manager
+  storage_id: user_view-panels_variant-0
+  builder: standard
+page: user_view
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

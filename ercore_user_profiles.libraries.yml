@@ -1,0 +1,4 @@
+ercore-profile:
+  css:
+    layout:
+      css/ercore-profile.css: {}

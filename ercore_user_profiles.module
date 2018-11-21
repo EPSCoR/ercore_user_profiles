@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * @file
+ * ERCore_user_profile.module.
+ */
+
+/**
+ * Implements hook_page_attachments().
+ */
+function ercore_user_profiles_page_attachments(array &$attachments) {
+  $attachments['#attached']['library'][] = 'ercore_user_profiles/ercore-profile';
+}
