@@ -1,0 +1,41 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.user_content
+    - views.view.ercore_basic_user_content
+  module:
+    - panels
+    - views
+id: user_content-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    850b187f-6e14-4c6f-8d8f-e998bfc3dbd3:
+      id: 'views_block:ercore_basic_user_content-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: 0
+      uuid: 850b187f-6e14-4c6f-8d8f-e998bfc3dbd3
+      context_mapping:
+        uid: user
+  id: panels_variant
+  uuid: 9bcd5053-d9d4-423d-8310-b0b4bc8e67d4
+  label: null
+  weight: 0
+  layout: layout_onecol
+  layout_settings: {  }
+  page_title: 'User Content'
+  storage_type: page_manager
+  storage_id: user_content-panels_variant-0
+  builder: standard
+page: user_content
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

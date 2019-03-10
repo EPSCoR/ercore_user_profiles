@@ -12,7 +12,8 @@
   "require": {
     "drupal/ercore": "^1.0@beta",
     "drupal/page_manager": "^4.0@beta",
-    "drupal/panels": "^4.3"
+    "drupal/panels": "^4.3",
+    "drupal/subpathauto": "^1.0@RC"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,

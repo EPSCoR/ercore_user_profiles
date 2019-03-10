@@ -3,7 +3,7 @@ status: true
 dependencies: {  }
 id: user_view
 label: 'User View'
-description: ''
+description: 'View for summarizing user content.'
 use_admin_theme: false
 path: '/user/{user}'
 access_logic: and
